@@ -3,7 +3,9 @@ var clockTitle = document.querySelector('h1');
 
 function getTime(){
   var date = new Date();
-  var hohurs = date.getHours();
+  date.toString();
+var hours = date.getHours();
+console.log(hours);
   var minutes = date.getMinutes();
   var seconds = date.getSeconds();
   clockTitle.innerHTML = `${
