@@ -1,11 +1,9 @@
 var clockContainer = document.querySelector('.js-clock');
-var clockTitle = document.querySelector('h1');
+var clockTitle = clockContainer.querySelector('h1');
 
 function getTime(){
   var date = new Date();
-  date.toString();
-var hours = date.getHours();
-console.log(hours);
+  var hours = date.getHours();
   var minutes = date.getMinutes();
   var seconds = date.getSeconds();
   clockTitle.innerHTML = `${
