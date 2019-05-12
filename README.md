@@ -23,8 +23,8 @@ I use space images form Hubble telescope in NASA.
 This is because I want user to feel that their all wishes and appreciations will be sent to the space just by writing on the brower by theirselves. 
 
 <strong>What I've learn from this clone project is..</strong>
-> new Image
-> new Date
-> JSON.stringify
-> JSON.parse
-> localStorage.setItem/ getItem
+> new Image <br>
+> new Date <br>
+> JSON.stringify <br>
+> JSON.parse <br>
+> localStorage.setItem/ getItem <br>
